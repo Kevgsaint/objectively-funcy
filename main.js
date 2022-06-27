@@ -10,7 +10,7 @@ function getFirstName(person) {
 console.log(getFirstName({
   firstName: 'Colin',
   lastName: 'Jaffe'
-})) // -> 'Colin'
+})) 
 console.log(getFirstName({
   firstName: 'Petra',
   lastName: 'Solano'
