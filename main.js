@@ -3,7 +3,6 @@
 ////////////////////////////////////////////////////////////////////////////////
 // 1. getFirstName
 
-
 function getFirstName(person) {
   return person.firstName;
 }
@@ -11,7 +10,7 @@ function getFirstName(person) {
 console.log(getFirstName({
   firstName: 'Colin',
   lastName: 'Jaffe'
-})) 
+})) // -> 'Colin'
 console.log(getFirstName({
   firstName: 'Petra',
   lastName: 'Solano'
@@ -42,7 +41,6 @@ console.log(getLastName({
 // 3. getFullName
 
 function getFullName(person) {
-   
   return `${person.firstName} ${person.lastName}`
 }
 
@@ -55,7 +53,7 @@ console.log(getFullName({
   firstName: 'Petra',
   lastName: 'Solano',
   fullName: 'Petra Solano'
-})) 
+}))
 
 //////////////////////////////////////////////////////////////////////////////
 // 4. setFirstName
@@ -72,7 +70,7 @@ let person2 = {
 
 
 function setFirstName(person, newFirstName) {
-   
+  
   person.firstName = newFirstName;
 }
 
